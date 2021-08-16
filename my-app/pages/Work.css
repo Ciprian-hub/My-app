@@ -1,0 +1,41 @@
+div section h2 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 0 16px 0px 16px;
+    padding-bottom: 4px;
+    text-align: start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+}
+.java-links{
+    display: flex;
+    width: 260px;
+}
+.java-links div {
+    width: 100px;
+    height: 120px;
+    border: 1px solid white;
+    margin: 8px 16px 8px 16px;
+}
+.vue-links{
+    display: flex;
+    width: 260px;
+    
+}
+.vue-links div {
+    width: 100px;
+    height: 120px;
+    border: 1px solid white;
+    margin: 8px 16px 8px 16px;
+}
+.react-links{
+    display: flex;
+    width: 260px;
+    
+}
+.react-links div {
+    width: 100px;
+    height: 120px;
+    border: 1px solid white;
+    margin: 8px 16px 8px 16px;
+}
