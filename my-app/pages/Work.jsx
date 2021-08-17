@@ -5,7 +5,7 @@ import './Work.css'
 
 function Work() {
     return (
-        <div>
+        <div className="page-box">
             <Wrapper/>
             <div className="content-work">
                 <section className='java-projects'>
