@@ -5,7 +5,7 @@ import Wrapper from '../components/Wrapper'
 
 function Home() {
     return (
-        <div>
+        <div className="page-box">
             <Wrapper />
             <div className="content-homepage">
                 <div className='image-box'>
@@ -28,12 +28,14 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className='title'>
-                    <h1 className="hello">Hello! I`m Ciprian Valea, </h1>
-                    <span className="subTitle">frontend developer</span>
-                </div>
-                <div>
-                    <button className="btn">See my work</button>
+                <div className="titlebtn">
+                    <div className='title'>
+                        <h1 className="hello">Hello! I`m Ciprian Valea, </h1>
+                        <span className="subTitle">frontend developer</span>
+                    </div>
+                    <div className='button'>
+                        <button className="btn">See my work</button>
+                    </div>
                 </div>
             </div>
         </div>

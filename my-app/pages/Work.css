@@ -1,41 +1,81 @@
-div section h2 {
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    font-size: 0.9rem;
-    margin: 0 16px 0px 16px;
-    padding-bottom: 4px;
-    text-align: start;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
-}
-.java-links{
-    display: flex;
-    width: 260px;
-}
-.java-links div {
-    width: 100px;
-    height: 120px;
-    border: 1px solid white;
-    margin: 8px 16px 8px 16px;
-}
-.vue-links{
-    display: flex;
-    width: 260px;
+
+@media only screen and (min-width: 320px) {
+
+    .content-work {
+        margin: 0 auto;
+        width: 90%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 16px;
+    }
+    div section h2 {
+        letter-spacing: 1.5px;
+        font-weight: 400;
+        font-size: 0.9rem;
+        margin: 0 16px 0px 16px;
+        padding-bottom: 4px;
+        text-align: start;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    }
+    .java-projects {
+        width: 90%;
+    }
+    .java-links{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .java-links div {
+        width: 100px;
+        height: 120px;
+        border: 1px solid white;
+        margin: 8px 16px 8px 16px;
+    }
+    .vue-projects {
+        width: 90%;
+    }
+    .vue-links{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .vue-links div {
+        width: 100px;
+        height: 120px;
+        border: 1px solid white;
+        margin: 8px 16px 8px 16px;
+    }
+    .react-projects {
+        width: 90%;
+    }
+    .react-links{
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .react-links div {
+        width: 100px;
+        height: 120px;
+        border: 1px solid white;
+        margin: 8px 16px 8px 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 480px) {
+
+  }
+  
+  @media only screen and (min-width: 768px) {
+
+  }
+  
+  @media only screen and (min-width: 1024px) {
+  
     
-}
-.vue-links div {
-    width: 100px;
-    height: 120px;
-    border: 1px solid white;
-    margin: 8px 16px 8px 16px;
-}
-.react-links{
-    display: flex;
-    width: 260px;
-    
-}
-.react-links div {
-    width: 100px;
-    height: 120px;
-    border: 1px solid white;
-    margin: 8px 16px 8px 16px;
-}
+  }
