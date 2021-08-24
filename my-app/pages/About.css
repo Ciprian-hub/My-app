@@ -4,33 +4,71 @@
     .content-about {
         margin: 0 auto;
         width: 90%;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-around;
         padding-top: 16px;
+    }
+    .education-skills {
+        margin: 0 5%;
+        display: flex;
+        flex-direction: column;
     }
     .top-page {
         width: 90%;
     }
     .top-page p {
         font-weight: 100;
-        font-size: 0.6em;
+        font-size: 0.7em;
         margin: 0;
         padding: 0 4px;
+    }    
+    .education {
+        width: 100%;
+        text-align: start;
+        margin-bottom: 16px;
+    }
+    .education h2 {
+        font-weight: 400;
+        font-size: 1em;
+        margin: 0 16px 8px 8px;
+        padding-bottom: 4px;
+        text-align: start;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    }
+    .education ul li {
+        font-size: 10px;
+        margin: 10px 10px;
+        color: white;
+    }
+    .step-bar  {
+        margin-top: 14px;
+    }
+    #bigSteper {
+        display: none;
+    }
+    .education h3 {
+        font-weight: 600;
+        margin: 0px 0px -11px 0px;
+        padding: 0px 0px;
+    }
+    .li-education {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0px;
     }
     .skills-pagination {
         display: flex;
     }
     .skills {
         margin: 0px 0;
-        width: 90%;
+        width: 100%;
     }
     .skills h2 {
-        letter-spacing: 1.5px;
         font-weight: 400;
-        font-size: 0.8em;
+        font-size: 1em;
         margin: 0 16px 8px 8px;
         padding-bottom: 4px;
         text-align: start;
@@ -39,6 +77,7 @@
     .skills ul li {
         color: white;
         font-size: 10px;
+        font-weight: 400;
     }
     .ul-skills {
         display: flex;
@@ -50,36 +89,9 @@
         display: inline;
         line-height: 18px;
     }
-    .education {
-        margin: 12px 0;
-        width: 90%;
-        text-align: start;
-    }
-    .education h2 {
-        letter-spacing: 1.5px;
-        font-weight: 400;
-        font-size: 0.8em;
-        margin: 0 16px 8px 8px;
-        padding-bottom: 4px;
-        text-align: start;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.329);
-    }
-    .education ul li {
-        font-size: 10px;
-        color: white;
-    }
-    .ul-education {
-        display: flex;
-        flex-direction: column;
-        padding: 0 8px;
-    }
-    .ul-skills li span  {
-        margin-left: 16px;
-    }
-    .skills svg {
-        width: 7px;
-        height: 7px;
-        margin: 2px;
+    .ul-level li svg {
+        width:130px;
+        margin-right: 15px;
     }
 }
 
@@ -93,11 +105,14 @@
         justify-content: flex-start;
     }
     .top-page {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     .education {
         margin: 48px 0;
         font-size: 2.1em;
+    }
+    .education h3 {
+        font-weight: 600;
     }
     .education ul  li{
         font-size: 1.1rem;
@@ -106,11 +121,83 @@
         font-size: 2.1em;
     }
     .skills ul li {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+    } 
+    #smallSteper {
+        display: none;
     }
-    .skills svg {
-        width: 12px;
-        height: 12px;
-        margin: 7px;
+    #bigSteper {
+        display: block;
+    }
+    .ul-level {
+        line-height: 28px;
+    }
+    .ul-level li {
+        width: 400px;
+    }
+    .ul-level li svg {
+        width: 300px;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .education-skills {
+        display: flex;
+        flex-direction: row;
+        margin: 120px auto;
+    }
+    .top-page {
+        font-size: 2em;
+        width: 650px;
+        margin-top: 30px;
+        box-shadow: 0px 2px 3px 0px #0a0a0a;
+    }
+    .education-skills h2 {
+        font-size: 1.9rem;
+        border: none;
+        margin-bottom: 0px;
+    }
+    .education-skills span svg {
+        transform: translateY(4px);
+    }
+    .education-skills ul li {
+        font-size:14px;
+    }
+    .education {
+        margin: 0px 60px 0px -8px;
+        width: 700px;
+        box-shadow: 0px 2px 3px 0px #0a0a0a;
+    }
+    .education ul li{
+        margin: 12px 8px 30px 16px;
+    }
+    .education ul li h3 {
+        font-weight: 600;
+    }
+    .ul-education {
+        margin: 0px 0px 0px 16px;
+    }
+    .skills {
+        /* margin-right:-100px ; */
+        box-shadow: 0px 2px 3px 0px #0a0a0a;
+    }
+    .skills-pagination {
+        width: 100px;
+    }
+    .skills-pagination .ul-skills {
+        transform: translate( 40px, -6px);
+    }
+    .skills-pagination .ul-skills li {
+        font-weight: 600;
+        font-size: 16px;
+        margin: 12.5px 0px;
+    }
+    .skills-pagination .ul-level {
+        transform: translateX(-70px);
+    }
+    .skills-pagination .ul-level li {
+        margin: 35px 0 0 0;
+        line-height: 0px;
+    }
+}
+
