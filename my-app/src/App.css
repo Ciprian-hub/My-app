@@ -4,7 +4,7 @@
   font-family: 'Open Sans', sans-serif ;
 }
 body {
-  background-image: url('./assets/92e04eae919da04efc6084d0e323545e.png') ; 
+  background-image: url('./assets/backgroundm.jpg') ;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -27,6 +27,17 @@ a:focus {
 ul li {
   text-shadow: none;
 }
+.wrapper-box {
+  min-height: 520px;
+  background-color: rgba(24, 24, 24, 0.71) ;
+  width: 90%;
+  height: 90%;
+  border-radius: 12px;
+  box-shadow: 1px 1px 6px 1px rgba(255, 255, 255, 0.253);
+  position: absolute;
+  left: 5%;
+  z-index: -1;
+}
 @media only screen and (min-width: 320px) {
   .navigation-bar {
     margin: 8px 0px;
@@ -39,15 +50,7 @@ ul li {
     font-size: 0.7rem;
     font-weight: 100;
   }
-  .wrapper-box {
-    background-color: rgba(0, 0, 0, 0.856) ;
-    width: 90%;
-    height: 90%;
-    box-shadow: 1px 1px 6px 1px rgba(255, 255, 255, 0.253);
-    position: absolute;
-    left: 5%;
-    z-index: -1;
-  }
+  
 }
 
 @media only screen and (min-width: 480px) {
@@ -69,13 +72,14 @@ ul li {
     margin: 8px 0px;
   }
   ul li {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 4px 48px;
+    text-shadow: 6px 5px 8px rgba(0, 0, 0, 0.527);
   }
   .page-box {
     width: 1000px;
     text-align: center;
-    margin: 0 auto; 
+    margin: 16px auto; 
     position: relative;
 }
   .wrapper-box {

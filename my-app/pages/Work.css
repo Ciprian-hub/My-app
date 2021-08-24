@@ -4,11 +4,11 @@
     .content-work {
         margin: 0 auto;
         width: 90%;
-        height: 100vh;
+        height: 90vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-around;
         padding-top: 16px;
     }
     div section h2 {
@@ -28,6 +28,7 @@
         justify-content: space-around;
         width: 90%;
         margin: 0 auto;
+        margin-top: 12px;
     }
     .java-links div {
         width: 100px;
@@ -43,6 +44,7 @@
         justify-content: space-around;
         width: 90%;
         margin: 0 auto;
+        margin-top: 12px;
     }
     .vue-links div {
         width: 100px;
@@ -58,6 +60,7 @@
         justify-content: space-around;
         width: 90%;
         margin: 0 auto;
+        margin-top: 12px;
     }
     .react-links div {
         width: 100px;
@@ -68,14 +71,52 @@
   }
   
   @media only screen and (min-width: 480px) {
+      div section h2 {
+          font-size: 1.4em;
+      }
 
   }
   
   @media only screen and (min-width: 768px) {
+    div section h2 {
+        font-size: 1.6em;
+    }
+    .java-links {
+        margin-top: 12px;
+    }
+    .java-links div {
+        width: 100px;
+        height: 200px;
+    }
+    .vue-links {
+        margin-top: 12px;
+    }
+    .vue-links div {
+        width: 100px;
+        height: 200px;
+    }
+    .react-links {
+        margin-top: 12px;
+    }
+    .react-links div {
+        width: 100px;
+        height: 200px;
+    }
 
   }
   
   @media only screen and (min-width: 1024px) {
-  
+    .java-links div {
+        width: 150px;
+        height: 180px;
+    }
+    .vue-links div {
+        width: 150px;
+        height: 180px;
+    }
+    .react-links div {
+        width: 150px;
+        height: 180px;
+    }
     
   }
