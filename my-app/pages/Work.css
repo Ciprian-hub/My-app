@@ -1,15 +1,13 @@
 
 @media only screen and (min-width: 320px) {
-
     .content-work {
         margin: 0 auto;
         width: 90%;
         height: 90vh;
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         align-items: center;
-        justify-content: space-around;
-        padding-top: 16px;
     }
     div section h2 {
         letter-spacing: 1.5px;
@@ -20,6 +18,18 @@
         text-align: start;
         border-bottom: 1px solid rgba(255, 255, 255, 0.329);
     }
+    section div a div {
+        width: 60px;
+        height: 140px;
+        border:1px solid black;
+        opacity: 0.8;
+    }
+    section div a div:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 300ms ease;
+        opacity: 1;
+    }
     .java-projects {
         width: 90%;
     }
@@ -28,40 +38,37 @@
         justify-content: space-around;
         width: 90%;
         margin: 0 auto;
-        margin-top: 12px;
+        margin-top: 4px;
     }
-    .java-links div {
-        width: 100px;
-        height: 120px;
-        border: 1px solid white;
-        margin: 8px 16px 8px 16px;
-    }
-    .java-links div:hover {
-        cursor: pointer;
-        transform: scale(1.1);
-        transition: 300ms ease;
-        opacity: 0.9;
-    } 
     .dad-jokes {
         background-image: url('./assets/DadJoke.PNG');
+        background-size: cover;
+        background-position: center;
+    }
+    .hoverboard {
+        background-image: url('./assets/Hoverboard.PNG');
+        background-size: cover;
+        background-position: center;
+    }
+    .rps {
+        background-image: url('./assets/rps.PNG');
         background-size: cover;
         background-position: center;
     }
     .vue-projects {
         width: 90%;
     }
+    .movies-app {
+        background-image: url('./assets/movie-app.PNG');
+        background-size: cover;
+        background-position: center;
+    }
     .vue-links{
         display: flex;
         justify-content: space-around;
         width: 90%;
         margin: 0 auto;
-        margin-top: 12px;
-    }
-    .vue-links div {
-        width: 100px;
-        height: 120px;
-        border: 1px solid white;
-        margin: 8px 16px 8px 16px;
+        margin-top: 4px;
     }
     .react-projects {
         width: 90%;
@@ -71,13 +78,7 @@
         justify-content: space-around;
         width: 90%;
         margin: 0 auto;
-        margin-top: 12px;
-    }
-    .react-links div {
-        width: 100px;
-        height: 120px;
-        border: 1px solid white;
-        margin: 8px 16px 8px 16px;
+        margin-top: 4px;
     }
   }
   
@@ -85,49 +86,26 @@
       div section h2 {
           font-size: 1.4em;
       }
-
+      section div a div {
+        margin-top: 16px;
+        width: 120px;
+        height: 180px;
+        border:1px solid black;
+    }
   }
   
   @media only screen and (min-width: 768px) {
-    div section h2 {
-        font-size: 1.6em;
-    }
-    .java-links {
-        margin-top: 12px;
-    }
-    .java-links div {
-        width: 100px;
-        height: 200px;
-    }
-    .vue-links {
-        margin-top: 12px;
-    }
-    .vue-links div {
-        width: 100px;
-        height: 200px;
-    }
-    .react-links {
-        margin-top: 12px;
-    }
-    .react-links div {
-        width: 100px;
-        height: 200px;
-    }
-
+    
+ 
   }
   
   @media only screen and (min-width: 1024px) {
-    .java-links div {
-        width: 150px;
-        height: 180px;
+    .content-work {
+        justify-content: center;
+      }
+    section div a div {
+        width: 200px;
+        height: 120px;
+        margin: 24px 0 14px 0;
     }
-    .vue-links div {
-        width: 150px;
-        height: 180px;
-    }
-    .react-links div {
-        width: 150px;
-        height: 180px;
-    }
-    
   }

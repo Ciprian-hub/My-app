@@ -13,27 +13,54 @@ function Work() {
                     <h2>Javscrip</h2>
                     <div className="java-links">
                         <a href={'https://github.com/Ciprian-hub/My-Projects/tree/dad-jokes/DadJokes'}>
-                            <div className="dad-jokes">Dad</div>
-                            Dad Jokes
+                            <div className="dad-jokes"></div>
                         </a>
-                        <div></div>
-                        <div></div>
+                        <a href={'https://github.com/Ciprian-hub/My-Projects/tree/main/Hoverboard'}>
+                            <div className="hoverboard"></div>
+                        </a>
+                        <a href="https://github.com/Ciprian-hub/My-Projects/tree/main/RockPaperSccisors">
+                            <div className="rps"></div>
+                        </a>
                     </div>
                 </section>
                 <section className='vue-projects'>
                     <h2>Vue</h2>
                     <div className="vue-links">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <a href="https://github.com/Ciprian-hub/My-Projects/tree/main/Movies-app">
+                                <div className="movies-app"></div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <div></div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <div></div>
+                            </a>
+                        </div>
                     </div>
                 </section>
                 <section className='react-projects'>
                     <h2>React</h2>
                     <div className="react-links">
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div>
+                            <a href="">
+                                <div></div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <div></div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <div></div>
+                            </a>
+                        </div>
                     </div>
                 </section>
             </div>
