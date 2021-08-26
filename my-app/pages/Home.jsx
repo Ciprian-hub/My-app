@@ -45,6 +45,11 @@ function Home() {
                         <Link to='/work'>
                             <button className="btn">See my work</button>
                         </Link>
+                        <br />
+                        <a href="./assets/me-nbg.png" download>
+                            <button  className='btn'>Download Resume </button>
+                        </a>
+                        
                     </div>
                     <div className="arrow">
                         <svg width="139" height="134" viewBox="0 0 139 134" fill="none" xmlns="http://www.w3.org/2000/svg">
