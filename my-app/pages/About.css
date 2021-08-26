@@ -40,11 +40,12 @@
     }
     .education ul li {
         font-size: 10px;
-        margin: 10px 10px;
+        margin: 10px 4px;
         color: white;
     }
     .step-bar  {
         margin-top: 14px;
+        margin-right: 4px;
     }
     #bigSteper {
         display: none;
@@ -116,6 +117,7 @@
     }
     .education ul  li{
         font-size: 1.1rem;
+        margin-left: 16px;
     }
     .skills {
         font-size: 2.1em;
@@ -130,7 +132,7 @@
         display: block;
     }
     .ul-level {
-        line-height: 28px;
+        line-height: 32px;
     }
     .ul-level li {
         width: 400px;
@@ -144,16 +146,16 @@
     .education-skills {
         display: flex;
         flex-direction: row;
-        margin: 120px auto;
+        margin: 92px auto;
+        width: 900px;
     }
     .top-page {
-        font-size: 2em;
-        width: 650px;
-        margin-top: 30px;
-        box-shadow: 0px 2px 3px 0px #0a0a0a;
+        font-size: 1.8em;
+        width: 550px;
+        margin: 32px 0 0 0;
     }
     .education-skills h2 {
-        font-size: 1.9rem;
+        font-size: 1.6rem;
         border: none;
         margin-bottom: 0px;
     }
@@ -164,12 +166,11 @@
         font-size:14px;
     }
     .education {
-        margin: 0px 60px 0px -8px;
-        width: 700px;
-        box-shadow: 0px 2px 3px 0px #0a0a0a;
+        margin: 0 0px 0 0px;
+        width: auto;
     }
     .education ul li{
-        margin: 12px 8px 30px 16px;
+        margin: 12px 8px 30px 8px;
     }
     .education ul li h3 {
         font-weight: 600;
@@ -178,14 +179,15 @@
         margin: 0px 0px 0px 16px;
     }
     .skills {
-        /* margin-right:-100px ; */
-        box-shadow: 0px 2px 3px 0px #0a0a0a;
+        width: 50%;
+        padding-left: 104px;
     }
     .skills-pagination {
-        width: 100px;
+        margin-top: 4px;
     }
     .skills-pagination .ul-skills {
-        transform: translate( 40px, -6px);
+        transform: translate( 8px, -6px);
+        padding: 0px;
     }
     .skills-pagination .ul-skills li {
         font-weight: 600;
@@ -193,7 +195,7 @@
         margin: 12.5px 0px;
     }
     .skills-pagination .ul-level {
-        transform: translateX(-70px);
+        transform: translateX(-100px);
     }
     .skills-pagination .ul-level li {
         margin: 35px 0 0 0;
@@ -201,3 +203,12 @@
     }
 }
 
+@media only screen and  (min-width: 1280px){
+    .top-page{
+        margin-top: auto;
+        font-size: 2em;
+    }
+    .education-skills {
+        margin-top: auto;
+    }
+}
