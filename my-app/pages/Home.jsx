@@ -39,17 +39,17 @@ function Home() {
                 <div className="titlebtn">
                     <div className='title'>
                         <h1 className="hello">I`m <span className="name-color">Ciprian Valea,</span>  </h1>
-                        <span className="subTitle">frontend-dev.</span>
+                        <span className="subTitle">frontend-dev /
+                        <a href="./assets/me-nbg.png" download>
+                            download resume
+                        </a>
+                        </span>
+                        
                     </div>
                     <div className='button'>
                         <Link to='/work'>
                             <button className="btn">See my work</button>
                         </Link>
-                        <br />
-                        <a href="./assets/me-nbg.png" download>
-                            <button  className='btn'>Download Resume </button>
-                        </a>
-                        
                     </div>
                     <div className="arrow">
                         <svg width="139" height="134" viewBox="0 0 139 134" fill="none" xmlns="http://www.w3.org/2000/svg">
