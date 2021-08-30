@@ -1,5 +1,4 @@
 
-
 @media only screen and (min-width: 320px) {
     .content-about {
         margin: 0 auto;
@@ -31,12 +30,16 @@
         margin-bottom: 16px;
     }
     .education h2 {
+        display: flex;
         font-weight: 400;
         font-size: 1em;
         margin: 0 16px 8px 8px;
         padding-bottom: 4px;
         text-align: start;
         border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    }
+    .education h2 span {
+        margin:0px 4px;
     }
     .education ul li {
         font-size: 10px;
@@ -68,12 +71,16 @@
         width: 100%;
     }
     .skills h2 {
+        display: flex;
         font-weight: 400;
         font-size: 1em;
         margin: 0 16px 8px 8px;
         padding-bottom: 4px;
         text-align: start;
         border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    }
+    .skills h2 span {
+        margin:0px 8px 0px 0px;
     }
     .skills ul li {
         color: white;
@@ -146,7 +153,7 @@
     .education-skills {
         display: flex;
         flex-direction: row;
-        margin: 92px auto;
+        margin: 96px auto;
         width: 900px;
     }
     .top-page {

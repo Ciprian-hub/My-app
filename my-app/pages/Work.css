@@ -41,17 +41,17 @@
         margin-top: 4px;
     }
     .dad-jokes {
-        background-image: url('./assets/DadJoke.PNG');
+        background-image: url('assets/DadJoke.PNG');
         background-size: cover;
         background-position: center;
     }
     .hoverboard {
-        background-image: url('./assets/Hoverboard.PNG');
+        background-image: url('assets/Hoverboard.PNG');
         background-size: cover;
         background-position: center;
     }
     .rps {
-        background-image: url('./assets/rps.PNG');
+        background-image: url('assets/rps.PNG');
         background-size: cover;
         background-position: center;
     }
@@ -59,7 +59,7 @@
         width: 90%;
     }
     .movies-app {
-        background-image: url('./assets/movie-app.PNG');
+        background-image: url('assets/movie-app.PNG');
         background-size: cover;
         background-position: center;
     }
